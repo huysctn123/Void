@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7668f8bd15c0546408373ad6877acb98, type: 3}
+  m_Name: Wolf_RangedAttackState1Data
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 993612270351021108, guid: ebe3976c649626f428308a033f710756, type: 3}
+  projectileDamage: 10
+  projectileSpeed: 20
+  projectileTravelDistance: 0
+  Speed: -3
+  StateSound: {fileID: 8300000, guid: b19073111d71a5f4984d93731dbb8284, type: 3}

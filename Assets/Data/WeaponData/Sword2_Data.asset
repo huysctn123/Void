@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8bb7372116bca549867597eb5ca6f33, type: 3}
+  m_Name: Sword2_Data
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 21300000, guid: 0620cfd7fb63a8c48b6daa9c1b3f95bf, type: 3}
+  <Name>k__BackingField: Swift Sword
+  <Description>k__BackingField: Just a normal sword
+  <Soul>k__BackingField: 0
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 114cdb6de942c9a41bbef527be07e039, type: 2}
+  <NumberOfAttacks>k__BackingField: 2
+  <ComponentData>k__BackingField:
+  - rid: 4832178855189938177
+  - rid: 4832178855189938178
+  - rid: 4832178855189938179
+  - rid: 4832178927086075906
+  - rid: 4832179014961725440
+  references:
+    version: 2
+    RefIds:
+    - rid: 4832178855189938177
+      type: {class: MovementData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 0
+        - name: Attack 2
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 0
+    - rid: 4832178855189938178
+      type: {class: ActionHitBoxData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          Debug: 1
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0
+            y: -2.5
+            width: 3
+            height: 3.5
+        - name: Attack 2
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0
+            y: -2.5
+            width: 3.5
+            height: 3
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 1024
+    - rid: 4832178855189938179
+      type: {class: DamageOnHitBoxActionData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageOnHitBoxActionData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 15
+        - name: Attack 2
+          <Amount>k__BackingField: 20
+    - rid: 4832178927086075906
+      type: {class: WeaponSpriteAndSFXData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteAndSFXData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 1331108192, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 253163118, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 892533817, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 728155003, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 1646688904, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 1870224467, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: -419805012, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 1722558360, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: -1928103334, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 1203697302, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 362776146, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 893155186, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            <phaseSound>k__BackingField: {fileID: 8300000, guid: 3ee3c492cc4496c4eb51933838cc9362, type: 3}
+        - name: Attack 2
+          <PhaseSprites>k__BackingField:
+          - <phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 1467337098, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 184873609, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: -2112419136, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: -1076141057, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 947904588, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 1418221774, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            - {fileID: 1688391478, guid: f6e7c845e686ddc43b80445fef7db390, type: 3}
+            <phaseSound>k__BackingField: {fileID: 8300000, guid: 3ee3c492cc4496c4eb51933838cc9362, type: 3}
+    - rid: 4832179014961725440
+      type: {class: PoiseDamageData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: PoiseDamageData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 5
+        - name: Attack 2
+          <Amount>k__BackingField: 5

@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8bb7372116bca549867597eb5ca6f33, type: 3}
+  m_Name: Staff Ice Bullet_Data
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 21300000, guid: 706205a8569964847b6b46cae7be914f, type: 3}
+  <Name>k__BackingField: Ice Staff
+  <Description>k__BackingField: A very beautiful staff, I wonder what it can do?
+  <Soul>k__BackingField: 50
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: fea41d4d6232b924bb1919475e0d0884, type: 2}
+  <NumberOfAttacks>k__BackingField: 2
+  <ComponentData>k__BackingField:
+  - rid: 516212133668061185
+  - rid: 662445314781216769
+  - rid: 4616621898109550592
+  - rid: 4616621917979541504
+  references:
+    version: 2
+    RefIds:
+    - rid: 516212133668061185
+      type: {class: WeaponSpriteAndSFXData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteAndSFXData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 1858444258, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 682767436, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -717873522, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -258323946, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -1421115695, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -1316860723, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 1927307811, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 1444787972, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 1717479674, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            <phaseSound>k__BackingField: {fileID: 8300000, guid: 8343def2d6cb91149ad7121c2441b74c, type: 3}
+        - name: Attack 2
+          <PhaseSprites>k__BackingField:
+          - <phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 1974734038, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 581650715, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 241111235, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 325816158, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -1937267100, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 239455010, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -1099800373, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 890974763, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 1265961170, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -60352233, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 131325378, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -149582708, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -1997158016, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -133435487, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -1941166783, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 1149777178, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: 806751137, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            - {fileID: -37616458, guid: c64863c721efc9e4490cf1fe39a4fddf, type: 3}
+            <phaseSound>k__BackingField: {fileID: 8300000, guid: 8343def2d6cb91149ad7121c2441b74c, type: 3}
+    - rid: 662445314781216769
+      type: {class: ManaOnAttackData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ManaOnAttackData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 10
+        - name: Attack 2
+          <Amount>k__BackingField: 10
+    - rid: 4616621898109550592
+      type: {class: MovementData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 0, y: 0}
+          <Velocity>k__BackingField: 0
+        - name: Attack 2
+          <Direction>k__BackingField: {x: 0, y: 0}
+          <Velocity>k__BackingField: 0
+    - rid: 4616621917979541504
+      type: {class: ProjectileSpawnerData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ProjectileSpawnerData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <SpawnInfos>k__BackingField:
+          - <Offset>k__BackingField: {x: 0, y: 0}
+            <Direction>k__BackingField: {x: 0, y: 0}
+            <ProjectilePrefab>k__BackingField: {fileID: 7560442905289321585, guid: 7f636a1f7ac293648a54d6d87313c66f, type: 3}
+            <DamageData>k__BackingField:
+              <Amount>k__BackingField: 50
+            <KnockBackData>k__BackingField:
+              Strength: 5
+              Angle: {x: 1, y: 0.25}
+            <PoiseDamageData>k__BackingField:
+              <Amount>k__BackingField: 15
+            <SpriteDataPackage>k__BackingField:
+              <Sprite>k__BackingField: {fileID: 2018545492, guid: eb9911afbf48f3a46b3883c92613dfd3, type: 3}
+        - name: Attack 2
+          <SpawnInfos>k__BackingField:
+          - <Offset>k__BackingField: {x: 0, y: 0}
+            <Direction>k__BackingField: {x: 0, y: 0}
+            <ProjectilePrefab>k__BackingField: {fileID: 7560442905289321585, guid: 7f636a1f7ac293648a54d6d87313c66f, type: 3}
+            <DamageData>k__BackingField:
+              <Amount>k__BackingField: 70
+            <KnockBackData>k__BackingField:
+              Strength: 5
+              Angle: {x: 1, y: 0.25}
+            <PoiseDamageData>k__BackingField:
+              <Amount>k__BackingField: 15
+            <SpriteDataPackage>k__BackingField:
+              <Sprite>k__BackingField: {fileID: 2018545492, guid: eb9911afbf48f3a46b3883c92613dfd3, type: 3}

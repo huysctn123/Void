@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89fe2b44f3947204e92c9c0fffdf1266, type: 3}
+  m_Name: E3_HealStateData
+  m_EditorClassIdentifier: 
+  amount: 50
+  coolDownTime: 1
+  StateSound: {fileID: 8300000, guid: 44a282a134760d54db4d481cecf7e0ba, type: 3}
+  FX: {fileID: 4356569438246451153, guid: 2e10af2b9cb776246b06c696e4d302fe, type: 3}

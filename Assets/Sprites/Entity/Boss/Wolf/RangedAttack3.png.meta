@@ -1,0 +1,2815 @@
+fileFormatVersion: 2
+guid: ed575f6e0156563438d8ec2e4d5d10a0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RangedAttack3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb66e40c873c4e443b85a745b6b2f01b
+      internalID: -49212249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf728b7d82ea86a44b07313642b79465
+      internalID: 1635638839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889433afb34c82f429c92ab6d456bdb5
+      internalID: 2037378220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9566f0121a78e23419d6b7a7337c12b3
+      internalID: 1727896242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db734db3efe04941b9c401af13c142f
+      internalID: -1589206357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91459c7b407db92449820979f82d0bba
+      internalID: -1614668278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1322576c96b5cfb47b580b61056d9c1d
+      internalID: 235041607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_7
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93313d3f7f9fc8845adcc5d22361a156
+      internalID: -60793807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_8
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090b79bcde7f49649a3e3b1510381915
+      internalID: -449178127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_9
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc67e21a70eb0b4eb5a043e7bda5ff8
+      internalID: -1901704919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_10
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1800
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37da7a3445c02da46bec49702e01480d
+      internalID: 219903935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706de04e01d98f04bbe1d4e50a492ac1
+      internalID: 1343615044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72717ef3ce9e2e64bbf3ef4cfc4d702b
+      internalID: 732210847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0371a0ceead06d647a0528032c15fdeb
+      internalID: 1985228079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886e60e44087869478c077e3c381feab
+      internalID: 327396227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_15
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca43b0ca094679745870ba30c153f85c
+      internalID: 1172512505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbb62497d87a014ba304ad2dac2ec0e
+      internalID: -1394902356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_17
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ae5bb990053c84c841f956088c710f
+      internalID: 1644643193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_18
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2345ff628e073428060427ff34ff7f
+      internalID: -1783345681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_19
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a85dfdd4ee73134cb670b8f66bdf142
+      internalID: 1830230207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_20
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1be5eb3a7cb614eb2ad6b033435d01
+      internalID: 150766648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_21
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1620
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6d252d3dbebbb4da39df2cb2b84cb5
+      internalID: -1330477644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2e4ac36b7a5b441a2672112862250d
+      internalID: 615242718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2d042816a78994f9699a9ef46c2dd3
+      internalID: -2052361607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c685a6df349e6754fbeab0f8b98a4ae6
+      internalID: -1632835833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae68dfb96e517048b1ff7e17bb55d26
+      internalID: 2041238576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df34b55f600cc3847b02e7106e7bd54e
+      internalID: 132876402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_27
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53247d996b464c44c9a150ddc9ef68dd
+      internalID: 901629191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_28
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add7ebfcc97b8c04bbfaa378c810c133
+      internalID: -1398959067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_29
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576c5647b9cd94940b19d267c512f1a8
+      internalID: 1373002358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_30
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20f97cb01e53514a8bde0246385ee27
+      internalID: 615035765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_31
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6458ee3b49ce4634c97cb7a7beb63bf6
+      internalID: 1985127069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_32
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1440
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddafc0a2358263041835dc8205523293
+      internalID: 706919383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab2a32036179d641a85f5671091d459
+      internalID: -825949780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36a9afe12f7de240a53d3920899a87f
+      internalID: -1762338987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e56a16fe3a72f4388307a67169e27f
+      internalID: -1843331770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_36
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2510c9033a483b42bcc8cd079d093d1
+      internalID: 431271466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35789750c3005940b127915e9bf3df8
+      internalID: -1625859220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_38
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c228ddb97cb7af5438df041ccdd041e7
+      internalID: 1071812432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_39
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de30d2a1598ff8445a8bbfc218a24c61
+      internalID: 696350260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_40
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27fdaa6ed2b68743aa4df9a63279de2
+      internalID: -1732573858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_41
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8f23fcee1e66543a32adb49745cbc5
+      internalID: 490491379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_42
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4a2207ea33ab044a4f3e6a1628e1b2
+      internalID: 462322373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_43
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1260
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab26c1987de23f4480b026a800f0b7d
+      internalID: 2121918764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf34f0293378cbf4daf9e93ef132d8ec
+      internalID: -1662651678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d237418879af064998c853629edd209
+      internalID: -984193856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_46
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12a13a5d7e5cb248b7ce47f8654de68
+      internalID: -1908941580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb616834ec66f304b895c24c1e428a12
+      internalID: -1165182724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_48
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e969dd2ac931841a0c943aba39f674
+      internalID: 1201652611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_49
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27335655d4ae60940b7677d9544b9cb5
+      internalID: 686387498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_50
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b037667937218c48b19b1f791b76674
+      internalID: 592273309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_51
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beabe1b8c63ddcd4b8546851cf98d7bb
+      internalID: -1314126400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_52
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9109fdf00d1dbe441804c01f36a87132
+      internalID: -791233101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_53
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb79e5aa304bf94e8e4a9bb23832325
+      internalID: -1384483075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_54
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1080
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b889b75a131414794d0e969191b1ca
+      internalID: -64567281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dec7ffd0bb23b48b549b0b73a3b27f
+      internalID: 102097810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_56
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf675d7466d89a4e98c3e5ed2cd8622
+      internalID: -853466344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_57
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07393cb30dbb644eb862e719ba36ef2
+      internalID: -1639811745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4721d0bd89f86d41a679ff819233f44
+      internalID: -1538990569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_59
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12230cc7278c8e441a4ac27667ee802e
+      internalID: 1781561660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_60
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747fbcf34c41f44eaa1d56b7b32bae7
+      internalID: 1297533027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_61
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8299d279c805a074186d86dd9f8f7644
+      internalID: -1817093176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_62
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edc1acb302304f4e8d50e7e60ef2564
+      internalID: 1413189789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_63
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2cc4e380d14724697280ebcde435cf
+      internalID: 1856333265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_64
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adefbd1410785d046bf0077fc8052586
+      internalID: -1034867007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_65
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 900
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c7c43a42ec65c43b9e1b80ec2e17fd
+      internalID: 1178077999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c575dc27f0418c549ac7b406969058ac
+      internalID: 1718896383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_67
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7f4ca3854f3874a90b4d1395658667
+      internalID: -244467921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_68
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b632bce47dcb8249869cca27bec8c2f
+      internalID: 1157476654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_69
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170b254cda7d8c1418de007b76db9474
+      internalID: 545856378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_70
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57b4c612181a2246b6e9fe995615639
+      internalID: -1749805366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_71
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b475fdb6ae1344aad28738367683be
+      internalID: -1263289897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_72
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a1b526f96fc8a44bea36ae0c0c7e06
+      internalID: 1351031729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_73
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2273e95d057c5468a4fc41296edbab
+      internalID: 611837869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_74
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b949388f873ec694d822d7f31c992651
+      internalID: -2115180609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_75
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458f84ca23a7e1940a839b90e9bf0316
+      internalID: 170105944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_76
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 720
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1ebc0bb1e4a6547b7456dba3e45f18
+      internalID: -1814883278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb148e1efc26594aa840a64a8380c8c
+      internalID: -1713390470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_78
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4630000bd1322041b0b48e498a26f4b
+      internalID: 1954488465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_79
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50b6db42448ee648a58ba8435eddbf1
+      internalID: -1104318216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_80
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd08bb6631c009242a757cb971932890
+      internalID: 459648586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_81
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdfea46f1e2a934ab4ee476a5e882e9
+      internalID: 1468414100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_82
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0984228321ed1484f9a5f27238b8c614
+      internalID: 1153934594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_83
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a11cead9a3c7b49a6174a9ca097f5c
+      internalID: -1188999695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_84
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710b4612cbd7a09448948fa29ee8aa71
+      internalID: -1437600246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_85
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19651c1cb2061144b9cdcf984f5ae56
+      internalID: -1814816868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_86
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf0e7a5c947f114385beea1a83350cb
+      internalID: 1337314675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_87
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 540
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb5e7c59d4e2b540abf6533d320a2ce
+      internalID: -1906434794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b452d4ff034d047aedb81cbfa90cbb
+      internalID: -1568976578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_89
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a62f8f0b770b444aae2d93fcd599ad
+      internalID: 352368001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_90
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c547405c56b18f74e9f06bd591bf2dcd
+      internalID: 1007424182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_91
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb38c23a09b9b64b9a26d0d4b0eba6a
+      internalID: 637229315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_92
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b78acb67c836f479a39b1fe7364a9a
+      internalID: -2080730922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_93
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cced2de695512c41aca4526a98b227f
+      internalID: 1688220724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_94
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b415069374cf044b17ad288d27a38c
+      internalID: -662322538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_95
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c110caf343e978408f3698e9cd3b2bd
+      internalID: -636207994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_96
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3b6c12759003245b8e8abb9fcafbf2
+      internalID: 937031958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_97
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4897672afeb56e549a9d5863b4210052
+      internalID: 1929382517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_98
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 360
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb8cebb0e191a04ea546baf51fe7e63
+      internalID: 1192843928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faacf82c111b6014fa92468da14ce6b4
+      internalID: -1448950341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96df99b04373c4b4dafe2e9e9feffdd0
+      internalID: 382775481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b88d8c35137c04ab78d988208fe878
+      internalID: -1987826542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_102
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b9c3469e77bdf4faa2881633fba4ff
+      internalID: -480774183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_103
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d5da33ab9569a4c8ccd8bf45b34565
+      internalID: -1014807172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_104
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0356c128f210184ba814d34b7a0446f
+      internalID: 321404229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_105
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b316b02df83a70b4589bbfd5d68fd5cd
+      internalID: -67579172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_106
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d78c0a2ba0e01408b01d4046bd312f
+      internalID: -894287363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_107
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3271b515f4015be4f85febd82850efb4
+      internalID: 1853519801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_108
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6a55d386ce12b4cbfd772645a36b94
+      internalID: 19705316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_109
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 180
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de866dc8d87d1f46ad756dbf7b6d2ac
+      internalID: -1539075836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b802d557a9837bf4c8ae2800ae6b4a49
+      internalID: 333567763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_111
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac686f22bdf0ea438fbca20f8805dac
+      internalID: 585605796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_112
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4399b47627f14248b5721b6a261c59a
+      internalID: -1414523102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_113
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6931244a14d58449d0d16e47c3f242
+      internalID: 2102778077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_114
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f854ce74b705c438d4b7bcb7e42b42
+      internalID: 1467617166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_115
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbf9450eba3cb84691258039fbcf47e
+      internalID: 448889532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_116
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc27ef923cea862498e3f794382991ff
+      internalID: 1416081426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_117
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc03b2c45e547cd4994daedc3d2c69bb
+      internalID: -949911790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_118
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7dad3d15a96e64a868a4fb1f6fbeb1
+      internalID: -1098521556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_119
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bd52a5feb18784d9df35037fea5178
+      internalID: -414159341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedAttack3_120
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 320
+        height: 180
+      alignment: 9
+      pivot: {x: 0.415, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e5f556db8c8bb4ba956b37f6936285
+      internalID: 1562916949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RangedAttack3_0: -49212249
+      RangedAttack3_1: 1635638839
+      RangedAttack3_10: 219903935
+      RangedAttack3_100: 382775481
+      RangedAttack3_101: -1987826542
+      RangedAttack3_102: -480774183
+      RangedAttack3_103: -1014807172
+      RangedAttack3_104: 321404229
+      RangedAttack3_105: -67579172
+      RangedAttack3_106: -894287363
+      RangedAttack3_107: 1853519801
+      RangedAttack3_108: 19705316
+      RangedAttack3_109: -1539075836
+      RangedAttack3_11: 1343615044
+      RangedAttack3_110: 333567763
+      RangedAttack3_111: 585605796
+      RangedAttack3_112: -1414523102
+      RangedAttack3_113: 2102778077
+      RangedAttack3_114: 1467617166
+      RangedAttack3_115: 448889532
+      RangedAttack3_116: 1416081426
+      RangedAttack3_117: -949911790
+      RangedAttack3_118: -1098521556
+      RangedAttack3_119: -414159341
+      RangedAttack3_12: 732210847
+      RangedAttack3_120: 1562916949
+      RangedAttack3_13: 1985228079
+      RangedAttack3_14: 327396227
+      RangedAttack3_15: 1172512505
+      RangedAttack3_16: -1394902356
+      RangedAttack3_17: 1644643193
+      RangedAttack3_18: -1783345681
+      RangedAttack3_19: 1830230207
+      RangedAttack3_2: 2037378220
+      RangedAttack3_20: 150766648
+      RangedAttack3_21: -1330477644
+      RangedAttack3_22: 615242718
+      RangedAttack3_23: -2052361607
+      RangedAttack3_24: -1632835833
+      RangedAttack3_25: 2041238576
+      RangedAttack3_26: 132876402
+      RangedAttack3_27: 901629191
+      RangedAttack3_28: -1398959067
+      RangedAttack3_29: 1373002358
+      RangedAttack3_3: 1727896242
+      RangedAttack3_30: 615035765
+      RangedAttack3_31: 1985127069
+      RangedAttack3_32: 706919383
+      RangedAttack3_33: -825949780
+      RangedAttack3_34: -1762338987
+      RangedAttack3_35: -1843331770
+      RangedAttack3_36: 431271466
+      RangedAttack3_37: -1625859220
+      RangedAttack3_38: 1071812432
+      RangedAttack3_39: 696350260
+      RangedAttack3_4: -1589206357
+      RangedAttack3_40: -1732573858
+      RangedAttack3_41: 490491379
+      RangedAttack3_42: 462322373
+      RangedAttack3_43: 2121918764
+      RangedAttack3_44: -1662651678
+      RangedAttack3_45: -984193856
+      RangedAttack3_46: -1908941580
+      RangedAttack3_47: -1165182724
+      RangedAttack3_48: 1201652611
+      RangedAttack3_49: 686387498
+      RangedAttack3_5: -1614668278
+      RangedAttack3_50: 592273309
+      RangedAttack3_51: -1314126400
+      RangedAttack3_52: -791233101
+      RangedAttack3_53: -1384483075
+      RangedAttack3_54: -64567281
+      RangedAttack3_55: 102097810
+      RangedAttack3_56: -853466344
+      RangedAttack3_57: -1639811745
+      RangedAttack3_58: -1538990569
+      RangedAttack3_59: 1781561660
+      RangedAttack3_6: 235041607
+      RangedAttack3_60: 1297533027
+      RangedAttack3_61: -1817093176
+      RangedAttack3_62: 1413189789
+      RangedAttack3_63: 1856333265
+      RangedAttack3_64: -1034867007
+      RangedAttack3_65: 1178077999
+      RangedAttack3_66: 1718896383
+      RangedAttack3_67: -244467921
+      RangedAttack3_68: 1157476654
+      RangedAttack3_69: 545856378
+      RangedAttack3_7: -60793807
+      RangedAttack3_70: -1749805366
+      RangedAttack3_71: -1263289897
+      RangedAttack3_72: 1351031729
+      RangedAttack3_73: 611837869
+      RangedAttack3_74: -2115180609
+      RangedAttack3_75: 170105944
+      RangedAttack3_76: -1814883278
+      RangedAttack3_77: -1713390470
+      RangedAttack3_78: 1954488465
+      RangedAttack3_79: -1104318216
+      RangedAttack3_8: -449178127
+      RangedAttack3_80: 459648586
+      RangedAttack3_81: 1468414100
+      RangedAttack3_82: 1153934594
+      RangedAttack3_83: -1188999695
+      RangedAttack3_84: -1437600246
+      RangedAttack3_85: -1814816868
+      RangedAttack3_86: 1337314675
+      RangedAttack3_87: -1906434794
+      RangedAttack3_88: -1568976578
+      RangedAttack3_89: 352368001
+      RangedAttack3_9: -1901704919
+      RangedAttack3_90: 1007424182
+      RangedAttack3_91: 637229315
+      RangedAttack3_92: -2080730922
+      RangedAttack3_93: 1688220724
+      RangedAttack3_94: -662322538
+      RangedAttack3_95: -636207994
+      RangedAttack3_96: 937031958
+      RangedAttack3_97: 1929382517
+      RangedAttack3_98: 1192843928
+      RangedAttack3_99: -1448950341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

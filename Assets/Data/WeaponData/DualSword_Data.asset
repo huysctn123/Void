@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8bb7372116bca549867597eb5ca6f33, type: 3}
+  m_Name: DualSword_Data
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 21300000, guid: b4e9b5224814f5d4993f2dabb0aecddb, type: 3}
+  <Name>k__BackingField: ' Dual Sword'
+  <Description>k__BackingField: What's stronger than one sword? Two swords
+  <Soul>k__BackingField: 100
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 9902c07d15a744d4fb8a7e704f5c1b3f, type: 2}
+  <NumberOfAttacks>k__BackingField: 3
+  <ComponentData>k__BackingField:
+  - rid: 4832178855189938177
+  - rid: 4832178855189938178
+  - rid: 4832178855189938179
+  - rid: 4832178927086075906
+  - rid: 4832179014961725440
+  references:
+    version: 2
+    RefIds:
+    - rid: 4832178855189938177
+      type: {class: MovementData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 5
+        - name: Attack 2
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 3
+        - name: Attack 3
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 7
+    - rid: 4832178855189938178
+      type: {class: ActionHitBoxData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0
+            y: -2.5
+            width: 2.5
+            height: 2.5
+        - name: Attack 2
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0
+            y: -2.5
+            width: 2.5
+            height: 2.5
+        - name: Attack 3
+          Debug: 1
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0
+            y: -2.5
+            width: 2.5
+            height: 2.5
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 1024
+    - rid: 4832178855189938179
+      type: {class: DamageOnHitBoxActionData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageOnHitBoxActionData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 15
+        - name: Attack 2
+          <Amount>k__BackingField: 25
+        - name: Attack 3
+          <Amount>k__BackingField: 40
+    - rid: 4832178927086075906
+      type: {class: WeaponSpriteAndSFXData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteAndSFXData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: -240602265, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 2082801348, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 1818179175, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -2105649702, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -439785265, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -923079049, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 1349379967, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -78074095, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -504280500, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 824078025, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -1218898823, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -67759291, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -1919455846, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -1629756050, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 483653708, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -1497149419, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -181072437, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -52714287, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -666692923, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -1831456839, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -970759165, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 1285741978, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 866149721, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            <phaseSound>k__BackingField: {fileID: 8300000, guid: 4185657855d412f46ae657ee00aa4755, type: 3}
+        - name: Attack 2
+          <PhaseSprites>k__BackingField:
+          - <phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: -1220272269, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -475879073, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -484857224, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -620938564, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -272362377, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 1863286439, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 1369419534, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -57663240, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -983189205, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 494636407, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -1567282987, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            <phaseSound>k__BackingField: {fileID: 8300000, guid: 55f0870697877384aa39bccde5c449d9, type: 3}
+        - name: Attack 3
+          <PhaseSprites>k__BackingField:
+          - <phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 99613757, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 2089681232, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -64577915, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -705101561, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 2091534071, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 2011399907, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -872651765, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 700874910, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 1397807013, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 435581413, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -1798922572, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 1330452128, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: -1837851002, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 672132262, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 1314546613, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 98882244, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 86019281, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 351769559, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 2120152332, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 2117804607, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            - {fileID: 369907386, guid: a02b5098c8521774eaa549d0b3a86a63, type: 3}
+            <phaseSound>k__BackingField: {fileID: 8300000, guid: 0cb95b63cddb3e34985c5224316dff0c, type: 3}
+    - rid: 4832179014961725440
+      type: {class: PoiseDamageData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: PoiseDamageData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 5
+        - name: Attack 2
+          <Amount>k__BackingField: 5
+        - name: Attack 3
+          <Amount>k__BackingField: 7

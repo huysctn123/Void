@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8bb7372116bca549867597eb5ca6f33, type: 3}
+  m_Name: Bow2_Data
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 21300000, guid: a4416e5d24f86634ca844decf358b7a9, type: 3}
+  <Name>k__BackingField: Bow 2
+  <Description>k__BackingField: Shoots magical arrows, with the number of arrows
+    increasing the longer you hold.
+  <Soul>k__BackingField: 50
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: e487bd041506b354bb7134281d2e6040, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 4832178931532824576
+  - rid: 4832178948502192128
+  - rid: 4832178948502192130
+  - rid: 4832178948502192131
+  - rid: 4832178948502192132
+  - rid: 4832178948502192133
+  - rid: 4832178948502192134
+  - rid: 4616622176972308480
+  - rid: 4616622176972308482
+  - rid: 6465980750478442496
+  references:
+    version: 2
+    RefIds:
+    - rid: 4616622176972308480
+      type: {class: ChargeToProjectileSpawnerData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ChargeToProjectileSpawnerData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <AngleVariation>k__BackingField: 5
+    - rid: 4616622176972308482
+      type: {class: ChargeData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ChargeData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <ChargeTime>k__BackingField: 0.75
+          <InitialChargeAmount>k__BackingField: 1
+          <NumberOfCharges>k__BackingField: 3
+          <ChargeIncreaseIndicatorParticlePrefab>k__BackingField: {fileID: 7954142175256676503, guid: 98a0d69a165b4da4aaae0c4ae84e6d5a, type: 3}
+          <ChargeAudio>k__BackingField: {fileID: 8300000, guid: 11f006a1a61de3f4e97e0bb978565dfe, type: 3}
+          <FullyChargedIndicatorParticlePrefab>k__BackingField: {fileID: 7954142175256676503, guid: 3689833d7258fe345afb998210d8bec5, type: 3}
+          <FullChargeAudio>k__BackingField: {fileID: 8300000, guid: 8343def2d6cb91149ad7121c2441b74c, type: 3}
+          <ParticlesOffset>k__BackingField: {x: 0, y: -0.5}
+    - rid: 4832178931532824576
+      type: {class: WeaponSpriteAndSFXData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteAndSFXData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <phase>k__BackingField: 0
+            <Sprites>k__BackingField:
+            - {fileID: -837219620, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -87811248, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -709119869, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 90577128, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -1657515940, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 1534330139, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 258100026, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -537082327, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -1186391020, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 1735509139, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -1404863122, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 948952041, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 516543664, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 924220336, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 184270525, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 726909048, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 1710215524, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 190362905, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -1570070183, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -399396742, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 980837814, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -890018696, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -983062899, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -383835619, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 1947600698, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 252825573, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -765090497, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            <phaseSound>k__BackingField: {fileID: 8300000, guid: 2c8f35bdd3d32df48bfb3eb568780e3a, type: 3}
+          - <phase>k__BackingField: 1
+            <Sprites>k__BackingField:
+            - {fileID: -765090497, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            <phaseSound>k__BackingField: {fileID: 0}
+          - <phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: -765090497, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 769134032, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 832009599, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -1304644305, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -1248810859, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 244916992, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 2007542498, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 909832592, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: -1435363796, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 1794475292, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 45589540, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 112502585, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            - {fileID: 769154425, guid: f7606a59e43b4ac42a03cba6fddd407c, type: 3}
+            <phaseSound>k__BackingField: {fileID: 8300000, guid: a35782870361d2147beff7476e8120fd, type: 3}
+    - rid: 4832178948502192128
+      type: {class: InputHoldData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: InputHoldData
+    - rid: 4832178948502192130
+      type: {class: MovementData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 0, y: 0}
+          <Velocity>k__BackingField: 0
+    - rid: 4832178948502192131
+      type: {class: OptionalSpriteData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: OptionalSpriteData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <UseOptionalSprite>k__BackingField: 1
+          <Fps>k__BackingField: 15
+          <Sprite>k__BackingField:
+          - {fileID: 593641947, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: 1713638885, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: 1423631088, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: -1699132462, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: -444543968, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: 1949014868, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: -1637093962, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: 942453781, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: -2073210502, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: 1913800005, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: -794864246, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: -98982435, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: 53869875, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+          - {fileID: 577587486, guid: 658c5bb5123609c45ad82316fb8f6b7c, type: 3}
+    - rid: 4832178948502192132
+      type: {class: DrawData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DrawData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <DrawCurve>k__BackingField:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          <DrawTime>k__BackingField: 0.26666668
+    - rid: 4832178948502192133
+      type: {class: DrawToProjectileData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DrawToProjectileData
+    - rid: 4832178948502192134
+      type: {class: ProjectileSpawnerData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ProjectileSpawnerData
+        repeatData: 1
+        attackData:
+        - name: Attack 1
+          <SpawnInfos>k__BackingField:
+          - <Offset>k__BackingField: {x: 2, y: -0.15}
+            <Direction>k__BackingField: {x: 1, y: 0}
+            <ProjectilePrefab>k__BackingField: {fileID: 4986894038652832449, guid: 72402b6552d594742a940dd9a8d4bd7b, type: 3}
+            <DamageData>k__BackingField:
+              <Amount>k__BackingField: 35
+            <KnockBackData>k__BackingField:
+              Strength: 5
+              Angle: {x: 1, y: 0.15}
+            <PoiseDamageData>k__BackingField:
+              <Amount>k__BackingField: 5
+            <SpriteDataPackage>k__BackingField:
+              <Sprite>k__BackingField: {fileID: -1971915895, guid: e99c3c3fdb4407146a4d70294c128e4b, type: 3}
+    - rid: 6465980750478442496
+      type: {class: ManaOnAttackData, ns: Void.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ManaOnAttackData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 15

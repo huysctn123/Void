@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e168edd1c41e124782055f956842e10, type: 3}
+  m_Name: Mutant_StandingAttackData
+  m_EditorClassIdentifier: 
+  attackRadius: 3
+  attackDamage: 10
+  knockbackAngle: {x: 1, y: 0.25}
+  knockbackStrength: 10
+  PoiseDamage: 0
+  Speed: 0
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  StateSound: {fileID: 0}
+  FX: {fileID: 2089191971017318079, guid: 30286ef5f28d6174ba53e56a29c52342, type: 3}

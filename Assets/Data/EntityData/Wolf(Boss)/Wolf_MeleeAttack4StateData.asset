@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e168edd1c41e124782055f956842e10, type: 3}
+  m_Name: Wolf_MeleeAttack4StateData
+  m_EditorClassIdentifier: 
+  attackRadius: 2
+  attackDamage: 5
+  knockbackAngle: {x: 1, y: 1}
+  knockbackStrength: 3
+  PoiseDamage: 0
+  Speed: 8
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  StateSound: {fileID: 8300000, guid: 3a32af51a49ec1b4098aa931a8865852, type: 3}
+  FX: {fileID: 7299508700814566133, guid: 03f3c0823b99c3b4398e0c8f72a3d2af, type: 3}
